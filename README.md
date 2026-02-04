@@ -1,4 +1,4 @@
-# 🚀 Ahmet VHD - Proje Referansları
+# 🚀 Ahmet Koca - Proje Referansları
 
 Bu repo, geliştirdiğim projelerin hızlı erişim bağlantılarını ve detaylarını içermektedir.
 
