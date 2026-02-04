@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    gap: 50px;
+    justify-content:center;
+    margin-top: 50px;
+}
+
+.ballon {
+    background-color: black;
+    color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.ballon::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+    
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid black;
+}
+
+.idenity {
+    margin:25px 0 0 25px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.idenity img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.card {
+    border: 1px solid black;
+    width: 400px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.idv {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.idv img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.big-image {
+    border-radius: 25px;
+}
+
+.comment {
+    background-color: black;
+    color: white;
+    width: 500px;
+    padding: 25px;
+    border-radius: 25px;
+    line-height: 25px;
+}
+
+.comment h3{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.comment h5 {
+    color: gray;
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 800px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 25px;
+    line-height: 25px;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.container img {
+    margin-top: 25px;
+    width: 70px;
+    border-radius: 50%;
+}
